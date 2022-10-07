@@ -25,9 +25,12 @@ div section {
 }
 div section ul {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     list-style: none; 
     margin-top: 0vh;
+}
+div section li {
+    margin-left: 10px;
 }
 div section img {
     width: 160px;
@@ -71,5 +74,5 @@ section button:hover {
 }
 section button:focus {
     background-color: rgb(207, 207, 207);
+    color: black
 }
-
