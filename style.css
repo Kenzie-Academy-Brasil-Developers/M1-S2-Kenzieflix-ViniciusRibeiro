@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+.containerMaster {
+    width: 700px;
+    margin: 0 auto;
+}
+
+header.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh;
+}
+header.container h1 {
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+    color: white;
+}
+div section ul {
+    display: flex;
+    justify-content:space-between;
+    list-style: none; 
+    margin-top: 0vh;
+}
+div section img {
+    width: 160px;
+    border-radius: 10px;
+}
+div section ul li img:hover {
+    border: solid white 1px;
+}
+div section ul li:hover {
+    font-weight: bold;
+}
+div section ul li div {
+    background-color: rgb(37, 37, 37);
+    width: 160px;
+    border-radius: 10px;
+}
+div section div img {
+    width: 50%;
+    display: flex;
+    padding: 25%;
+}
+p {
+    color: white;
+}
+section div {
+    display: flex;
+    justify-content: center;
+}
+div section div a {
+    color: white;
+    border: solid white 1px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+}
+section div a:hover {
+    color: black;
+    background-color: white;
+}
+
