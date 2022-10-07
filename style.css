@@ -46,6 +46,7 @@ div section div img {
 }
 p {
     color: white;
+    text-align: center;
 }
 section div {
     display: flex;
