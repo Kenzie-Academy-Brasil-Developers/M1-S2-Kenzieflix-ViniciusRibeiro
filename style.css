@@ -18,6 +18,11 @@ header.container h1 {
     margin-bottom: 0vh;
     color: white;
 }
+div section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 div section ul {
     display: flex;
     justify-content:space-between;
@@ -52,17 +57,19 @@ section div {
     display: flex;
     justify-content: center;
 }
-div section div a {
+div section button {
     color: white;
     border: solid white 1px;
     border-radius: 7px;
     padding: 10px;
     width: 150px;
-    text-decoration: none;
-    text-align: center;
+    background-color: rgb(20, 20, 20);
 }
-section div a:hover {
+section button:hover {
     color: black;
     background-color: white;
+}
+section button:focus {
+    background-color: rgb(207, 207, 207);
 }
 
