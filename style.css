@@ -35,7 +35,7 @@ div section li {
 div section img {
     width: 160px;
     border-radius: 10px;
-    border: solid 1px black
+    border: solid 1px rgb(20, 20, 20)
 }
 div section ul li img:hover {
     border: solid white 1px;
